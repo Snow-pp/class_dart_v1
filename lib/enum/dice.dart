@@ -10,26 +10,25 @@ enum Dice { one, two, three, four, five, six }
 void main() {
   Random random = new Random();
   int randomNumber = random.nextInt(6) + 1;
-  print(randomNumber);
 
   switch(randomNumber) {
-    case Dice.one:
-      print("1 입니다.");
+    case 1:
+      print(Dice.one);
       break;
-    case Dice.two:
-      print("2 입니다.");
+    case 2:
+      print(Dice.two);
       break;
-    case Dice.three:
-      print("3 입니다.");
+    case 3:
+      print(Dice.three);
       break;
-    case Dice.four:
-      print("4 입니다.");
+    case 4:
+      print(Dice.four);
       break;
-    case Dice.five:
-      print("5 입니다.");
+    case 5:
+      print(Dice.five);
       break;
-    case Dice.six:
-      print("6 입니다.");
+    case 6:
+      print(Dice.six);
       break;
     default:
       print("알 수 없습니다.");

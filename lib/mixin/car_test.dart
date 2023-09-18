@@ -26,7 +26,7 @@ class HybridCar with ElectricCar, PetrolCar {
   
   @override
   void chargePetrol() {
-    super.chargePetrol()
+    super.chargePetrol();
     print("GS 칼텍스에서 주유를 시작합니다");
   }
 }

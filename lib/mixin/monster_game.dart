@@ -4,6 +4,7 @@ mixin AttackBehavior {
 
 abstract class Weapon {
   int damage;
+
   Weapon(this.damage);
 }
 
@@ -18,6 +19,7 @@ class Bow extends Weapon {
 class Monster with AttackBehavior {
   String name;
   num hp;
+
   // 무기
   Weapon weapon;
 
